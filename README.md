@@ -38,6 +38,6 @@ Batas jumlah data yang diterima adalah 1000 data per detik
 5. Jalankan Consumer.py
 6. Jalankan server.py
 
-URL yang dapat diakses :
+#### URL yang dapat diakses :
 ``` http://localhost:5432/AppleStore/(nomor model) ```
-### Untuk menampilkan cluster terdekat
+#### Untuk menampilkan cluster terdekat
