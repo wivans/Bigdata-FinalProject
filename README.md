@@ -5,15 +5,22 @@
 ### Server.py
 Inisialisasi CherryPy web server dan untuk tempat inisialisasi fungsi dan memanggil app.py
 
-2. App.py
-3. Engine.py
-4. Producer.py
-5. Consumer.py
+### App.py
+menghubungkan server.py dengan engine.py dan sebagai tempat routing
+
+### Engine.py
+Engine.py melakukan pembacaan dataset, membuat 2 model yang berbeda
+
+### Producer.py
+berperan sebagai producer pada kafka sebagai pengirim data ke kafka server dengan delay yang sudah didetapkan
+
+### Consumer.py
+berperan sebagai konsumer sebagai pengambil data dari kafka server dan menyimpan data ke dalam format .txt
 
 ## Model yang digunakan :
 
-Model 1 : 1/2 data pertama
-Model 2: 1/2 data pertama + 1/2 data kedua (semua data)
+1. Model 1 : 1/2 data pertama
+2. Model 2: 1/2 data pertama + 1/2 data kedua (semua data)
 
 ## Batas jumlah data yang diterima :
 
@@ -33,3 +40,4 @@ Batas jumlah data yang diterima adalah 1000 data per detik
 
 URL yang dapat diakses :
 http://localhost:5432/AppleStore/(nomor model)
+Untuk menampilkan cluster terdekat
