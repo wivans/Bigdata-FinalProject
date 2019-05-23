@@ -2,7 +2,9 @@
 
 ## Struktur sistem :
 
-1. Server.py
+### Server.py
+Inisialisasi CherryPy web server dan untuk tempat inisialisasi fungsi dan memanggil app.py
+
 2. App.py
 3. Engine.py
 4. Producer.py
