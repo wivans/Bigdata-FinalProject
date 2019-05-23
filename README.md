@@ -41,4 +41,4 @@ Batas jumlah data yang diterima adalah 1000 data per detik
 #### URL yang dapat diakses :
 ``` http://localhost:5432/AppleStore/(nomor model) ```
 #### Untuk menampilkan cluster terdekat
-![cluster](img/FP.png)
+![cluster](img/FP.PNG)
