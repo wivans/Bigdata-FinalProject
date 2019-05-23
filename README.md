@@ -39,5 +39,5 @@ Batas jumlah data yang diterima adalah 1000 data per detik
 6. Jalankan server.py
 
 URL yang dapat diakses :
-http://localhost:5432/AppleStore/(nomor model)
-Untuk menampilkan cluster terdekat
+``` http://localhost:5432/AppleStore/(nomor model) ```
+### Untuk menampilkan cluster terdekat
